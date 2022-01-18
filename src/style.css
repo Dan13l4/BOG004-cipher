@@ -1,0 +1,119 @@
+*{
+    font-family: calibri, monospace;
+    text-decoration-color: aliceblue;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00001A;
+}
+
+#root {
+    align-items: center;
+    justify-content: center;
+    /*padding: 60px 500px;*/
+    width: 150vh;
+    box-shadow: 8px 8px 35px 0px rgba(248, 248, 248, 0.75);
+    border-radius: 10px 100px / 120px;
+  }
+
+  #inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #logo{
+    padding: 0;
+    margin-bottom: 5px;
+    display: flex;
+    width: 85PX;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #titulo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+    padding: 0;
+  }
+
+  #inicio{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+
+  #input-original {
+    height:  200px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  form#cifrador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #barra{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  }
+
+  
+
+  #botones{
+      display: flex;
+      padding: 20px 20px 20px 20px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #button {
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #buton {
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #instrucciones{
+      height: 20px;
+  }
+
+  .resultado{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+
+  #texto{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: underline overline;
+      font-size: 30px;
+      text-decoration-color: aliceblue;
+      color: aliceblue;
+  }
