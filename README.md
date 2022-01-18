@@ -1,5 +1,5 @@
 # Cifrado Cesar
-by Karen Baron
+**by Karen Baron**
 
 ## Índice
 
@@ -11,10 +11,24 @@ by Karen Baron
 * [6. Conclusiones](#6-conclusiones)
 * [7. Cheaklist](#7-cheaklist)
 
+============================================================================
 
 ## 1. Introduccion
+-------------
+
+El Cifrado César fue inventado por el emperador Julio César. Consiste en mover cada letra un determinado numero de espacion en el alfabeto. En el siguiente ejemplo se usa un desplazamiento de tres espacios, asi que una B en el texto original se convierte en una E en el texto codificado.
+
+### Ej:
+
+![cifrado cesar](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/1920px-Caesar3.svg.png)
+
+
+-------------
+
 
 ## 2. Caracteristicas del proyecto
+
+La idea del proyecto era crear una web que permitiera crear mensajes cifrados,  
 
 ## 3. Diseño del programa
 
