@@ -37,7 +37,7 @@ El web esta pensanda para la proteccion de datos privados para las empresas, sie
 
 Este es el esquema que cree para poder realizar el proyecto con las cosas basicas que debia realizar el programa para hacerlo funcional:
 
-![esquema proyecto](img/esquema.jpg)
+![esquema proyecto](src/img/esquema.jpg)
 
 -------------
 
