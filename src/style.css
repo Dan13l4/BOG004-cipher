@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00001A;
+    background-color: #000000;
 }
 
 #root {
@@ -18,6 +18,7 @@ body{
     width: 150vh;
     box-shadow: 8px 8px 35px 0px rgba(248, 248, 248, 0.75);
     border-radius: 10px 100px / 120px;
+    background-color: #ffffff;
   }
 
   #inicio{
@@ -31,7 +32,7 @@ body{
     padding: 0;
     margin-bottom: 5px;
     display: flex;
-    width: 85PX;
+    width: 150px;
     justify-content: center;
     align-items: center;
 
@@ -41,9 +42,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-decoration-color: aliceblue;
-    color: aliceblue;
+    text-decoration-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 0;
+    font-size: 50px;
+    text-decoration: underline;
   }
 
   #inicio{
@@ -60,6 +63,7 @@ body{
     justify-content: center;
     text-align: center;
     flex-direction: row;
+    font-size: 30px;
   }
 
   form#cifrador{
@@ -71,7 +75,7 @@ body{
   #barra{
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
   }
 
   
@@ -84,36 +88,73 @@ body{
   }
 
   #button {
-    margin-top: 10px;
-    margin-right: 10px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 16px;
+    margin: 50px 10px;
+    background-color: #edebff;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 30px;
+  }
+
+  #button:hover{
+    background-color: #a299f1;
+    color: rgb(39, 39, 39);
   }
 
   #buton {
-    margin-top: 10px;
-    margin-left: 10px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 16px;
+    margin: 4px 10px;
+    background-color: #edebff;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 32px;
+  }
+
+  #buton:hover{
+    background-color: #a299f1;
+    color: rgb(39, 39, 39);
+  }
+
+  .button{
+    background-color: #14173b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
   }
 
   #instrucciones{
-      height: 20px;
+      height: 40px;
   }
 
   .resultado{
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
+    border-style: dotted;
   }
 
   #texto{
       display: flex;
+      width: 50vh;
+      height: 50px;
+      margin-left: 50vh;
       justify-content: center;
       align-items: center;
-      text-decoration: underline overline;
-      font-size: 30px;
+      font-size: 25px;
       text-decoration-color: aliceblue;
-      color: aliceblue;
+      color: rgb(0, 0, 0);
+      border-width: thin;
+      border-style: solid;
+      border-color: rgb(2, 2, 2);
+      margin-bottom: 90px;
+      border-radius: 10px;
   }
