@@ -1,12 +1,6 @@
 const cipher = {
 
   encode : function(offset, string){
-    if (!offset || !string) {
-      throw new TypeError();
-    }
-    if (typeof(string) !== 'string' || typeof(offset) !== 'number' ) {
-      throw new TypeError();
-    }
     let arrayFrase = [];
     let newWord;
     for(let i = 0; i < string.length; i++){
@@ -20,12 +14,6 @@ const cipher = {
   },
 
   decode : function(offset, string){
-    if (!offset || !string) {
-      throw new TypeError();
-    }
-    if (typeof(string) !== 'string' || typeof(offset) !== 'number' ) {
-      throw new TypeError();
-    }
     let arrayFrase = [];
     let newWord;
     for(let i = 0; i < string.length; i++){
