@@ -11,7 +11,8 @@
 * [6. Conclusiones](#6-conclusiones)
 * [7. Cheaklist](#7-cheaklist)
 
-============================================================================
+                
+----
 
 ## 1. Introduccion
 -------------
@@ -28,7 +29,17 @@ El Cifrado César fue inventado por el emperador Julio César. Consiste en mover
 
 ## 2. Caracteristicas del proyecto
 
-La idea del proyecto era crear una web que permitiera crear mensajes cifrados,  
+-------------
+
+La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo asi, la empresa pidio que la pagina fuera sencilla e intuitiva, con un estilo monocromatico, con un boton de instrucciones, dos botones para cifrar y decifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta.
+
+El web esta pensanda para la proteccion de datos privados para las empresas, siendo esta web facil de usar para los trabajadores, siendo mayoritariamente para un publico adulto.
+
+Este es el esquema que cree para poder realizar el proyecto con las cosas basicas que debia realizar el programa para hacerlo funcional:
+
+![esquema proyecto](img/esquema.jpg)
+
+-------------
 
 ## 3. Diseño del programa
 
