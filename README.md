@@ -28,12 +28,9 @@ El Cifrado César fue inventado por el emperador Julio César. Consiste en mover
 
 
 ## 2. Caracteristicas del proyecto
-
 -------------
 
-La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo asi, la empresa pidio que la pagina fuera sencilla e intuitiva, con un estilo monocromatico, con un boton de instrucciones, dos botones para cifrar y decifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta.
-
-El web esta pensanda para la proteccion de datos privados para las empresas, siendo esta web facil de usar para los trabajadores, siendo mayoritariamente para un publico adulto.
+La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo asi, la empresa pidio que la pagina fuera sencilla e intuitiva, con un estilo monocromatico, con un boton de instrucciones, dos botones para cifrar y decifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta. La web esta pensanda para la proteccion de datos privados para las empresas, siendo esta web facil de usar para los trabajadores, siendo mayoritariamente para un publico adulto.
 
 Este es el esquema que cree para poder realizar el proyecto con las cosas basicas que debia realizar el programa para hacerlo funcional:
 
@@ -42,14 +39,40 @@ Este es el esquema que cree para poder realizar el proyecto con las cosas basica
 -------------
 
 ## 3. Diseño del programa
+-------------
+
+Luego de determinar la funcion que tendria la web me puse a trabajar en el diseño de esta, como iba a estar organizada, como iban a ser los botones y en que espacio saldria la respuesta, mas que todo fueron decisiones creativas.
+
+
+**Primer diseño:**
+![primer diseño](src/img/primerdiseño.png)
+En este primer diseño trate de crear dos cuadros para ingresar el texto para cifrar y decifrar y un tercer cuadro para mostrar el resultado, en este diseño el boton de instruccion estaria al lado del cuatro de resultado y no tendria ningun titulo distintivo del programa.
+
+**Segundo diseño:**
+![segundodiseño](src/img/segundodiseño.png)
+En este segundo incluido el titulo del proyecto, y ahora en vez de tener dos cuadros solo tendria un unico cuadro donde el usuario podria ingresar su texto, pero este boceto el texto solo saldria en la parte de abajo de los botones sin mas. Aqui no existira el boton de instrucciones, si no que estas estarian a ambos lados.
+
+**Ultimo diseño:**
+![Tercer diseño](src/img/tercerdiseño.png)
+Y por fin decidi como seria el ultimo diseño, dejando algo mas sencillo donde el usuario podria ver los dos botones y un recuadro donde saldria el resultado, ademas de una abarra en la aparte de abajo donde podra escoger cuanto espacios correr en el abecedario, este diseño si tiene integrado el boton de instrucciones para que el usuario pueda ver como usar la web.
+
+-------------
 
 ## 4. Paso a paso
+-------------
 
 ## 5. Instrucciones de uso
+-------------
+
+-------------
 
 ## 6. Conclusiones
+-------------
+
+-------------
 
 ## 7. Cheaklist
+-------------
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
