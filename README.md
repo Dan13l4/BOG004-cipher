@@ -62,6 +62,8 @@ Escogiendo entre los tres, preferi usar el ultimo diseño, por ser algo facil de
 
 ## 4. Paso a paso
 
+Una vez definido el diseño que tendria mi pagina empeze con la base de html, pensado en donde iria el titulo, el logo, el input del texto, la barra de rango, los 
+
 -------------
 
 ## 5. Instrucciones de uso
