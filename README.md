@@ -9,7 +9,7 @@
 * [4. Paso a paso](#4-paso-a-paso)
 * [5. Instrucciones de uso](#5-instrucciones-de-uso)
 * [6. Conclusiones](#6-conclusiones)
-* [7. Cheaklist](#7-cheaklist)
+* [7. Cheklist](#7-cheklist)
 
                 
 ----
@@ -71,11 +71,11 @@ Y por fin decidi como seria el ultimo diseño, dejando algo mas sencillo donde e
 
 -------------
 
-## 7. Cheaklist
+## 7. Cheklist
 -------------
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
