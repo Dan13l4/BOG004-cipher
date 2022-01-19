@@ -56,9 +56,12 @@ En este segundo incluido el titulo del proyecto, y ahora en vez de tener dos cua
 ![Tercer diseño](src/img/tercerdiseño.png)
 Y por fin decidi como seria el ultimo diseño, dejando algo mas sencillo donde el usuario podria ver los dos botones y un recuadro donde saldria el resultado, ademas de una abarra en la aparte de abajo donde podra escoger cuanto espacios correr en el abecedario, este diseño si tiene integrado el boton de instrucciones para que el usuario pueda ver como usar la web.
 
+Escogiendo entre los tres, preferi usar el ultimo diseño, por ser algo facil de hacer con mis habilidades actuales y pensando en la facilidad de ser usado para el usuario.
+
 -------------
 
 ## 4. Paso a paso
+
 -------------
 
 ## 5. Instrucciones de uso
