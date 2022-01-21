@@ -64,6 +64,7 @@ body{
     text-align: center;
     flex-direction: row;
     font-size: 30px;
+    resize: none;
   }
 
   form#cifrador{
@@ -138,23 +139,24 @@ body{
   }
 
   .resultado{
-    border-radius: 10px;
-    border-style: dotted;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   #texto{
-      display: flex;
-      width: 50vh;
-      height: 50px;
-      margin-left: 50vh;
-      justify-content: center;
-      align-items: center;
-      font-size: 25px;
-      text-decoration-color: aliceblue;
-      color: rgb(0, 0, 0);
-      border-width: thin;
-      border-style: solid;
-      border-color: rgb(2, 2, 2);
-      margin-bottom: 90px;
-      border-radius: 10px;
+    height:  200px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    font-size: 30px;
+    resize: none;
+    margin-bottom: 50px;
   }
+
+  textarea {
+    margin: auto;
+    display: block;
+}
