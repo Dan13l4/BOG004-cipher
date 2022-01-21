@@ -61,10 +61,11 @@ body{
     width: 600px;
     align-items: center;
     justify-content: center;
-    text-align: center;
     flex-direction: row;
     font-size: 30px;
     resize: none;
+    text-transform: uppercase;
+    margin: 0;
   }
 
   form#cifrador{
@@ -135,8 +136,15 @@ body{
   }
 
   #instrucciones{
-      height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 30px;
+    margin-left: 10px;
   }
+  
 
   .resultado{
     margin: 0;
@@ -159,4 +167,38 @@ body{
   textarea {
     margin: auto;
     display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#cuadro{
+  display: flex;
+  justify-content: center;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
