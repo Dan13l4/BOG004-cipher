@@ -1,10 +1,10 @@
-# Cifrado Cesar
-**by Karen Baron**
+# ✨Cifrado Cesar✨
+**by Karen Baron🌸**
 
 ## Índice
 
-* [1. Introduccion](#1-introduccion)
-* [2. Caracteristicas del proyecto](#2-caracteristicas-del-proyecto)
+* [1. Introducción](#1-introduccion)
+* [2. Características del proyecto](#2-caracteristicas-del-proyecto)
 * [3. Diseño del programa](#3-diseño-del-programa)
 * [4. Paso a paso](#4-paso-a-paso)
 * [5. Instrucciones de uso](#5-instrucciones-de-uso)
@@ -15,10 +15,10 @@
                 
 ----
 
-## 1. Introduccion
+## 1. Introducción
 -------------
 
-El Cifrado César fue inventado por el emperador Julio César. Consiste en mover cada letra un determinado numero de espacion en el alfabeto. En el siguiente ejemplo se usa un desplazamiento de tres espacios, asi que una B en el texto original se convierte en una E en el texto codificado.
+El Cifrado César fue inventado por el emperador Julio César. Consiste en mover cada letra un determinado número de espacios en el alfabeto. En el siguiente ejemplo se usa un desplazamiento de tres espacios, así que una B en el texto original se convierte en una E en el texto codificado.
 
 ### Ej:
 
@@ -28,12 +28,12 @@ El Cifrado César fue inventado por el emperador Julio César. Consiste en mover
 -------------
 
 
-## 2. Caracteristicas del proyecto
+## 2. Características del proyecto
 -------------
 
-La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo asi, la empresa pidio que la pagina fuera sencilla e intuitiva, con un estilo monocromatico, con un boton de instrucciones, dos botones para cifrar y decifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta. La web esta pensanda para la proteccion de datos privados para las empresas, siendo esta web facil de usar para los trabajadores, siendo mayoritariamente para un publico adulto.
+La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo así, la empresa pidió una página web que fuera sencilla e intuitiva, usando una paleta de colores azules, con un botón de instrucciones, dos botones para cifrar y descifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta. La web esta pensada para la protección de datos privados para las empresas, siendo esta web fácil de usar para los trabajadores, siendo mayoritariamente para un público adulto.
 
-Este es el esquema que cree para poder realizar el proyecto con las cosas basicas que debia realizar el programa para hacerlo funcional:
+Este es el esquema que cree para poder realizar el proyecto con las cosas básicas que debía realizar el programa para hacerlo funcional:
 
 ![esquema proyecto](src/img/esquema.jpg)
 
@@ -42,30 +42,31 @@ Este es el esquema que cree para poder realizar el proyecto con las cosas basica
 ## 3. Diseño del programa
 -------------
 
-Luego de determinar la funcion que tendria la web me puse a trabajar en el diseño de esta, como iba a estar organizada, como iban a ser los botones y en que espacio saldria la respuesta, mas que todo fueron decisiones creativas.
+Luego de determinar la función que tendría la web me puse a trabajar en el diseño de esta, como iba a estar organizada, como iban a ser los botones y en qué espacio saldría la respuesta, más que todo fueron decisiones creativas.
 
 
 **Primer diseño:**
 ![primer diseño](src/img/primerdiseño.png)
-En este primer diseño trate de crear dos cuadros para ingresar el texto para cifrar y decifrar y un tercer cuadro para mostrar el resultado, en este diseño el boton de instruccion estaria al lado del cuatro de resultado y no tendria ningun titulo distintivo del programa.
+En este primer diseño trate de crear dos cuadros para ingresar el texto para cifrar y descifrar y un tercer cuadro para mostrar el resultado, en este, el botón de instrucciones estaría al lado del cuatro de resultado y no tendría ningún título distintivo del programa.
 
 **Segundo diseño:**
 ![segundodiseño](src/img/segundodiseño.png)
-En este segundo incluido el titulo del proyecto, y ahora en vez de tener dos cuadros solo tendria un unico cuadro donde el usuario podria ingresar su texto, pero este boceto el texto solo saldria en la parte de abajo de los botones sin mas. Aqui no existira el boton de instrucciones, si no que estas estarian a ambos lados.
+En este segundo diseño decidí incluir el titulo del proyecto por encima del logo de la empresa para saber de que se trataba, comparado con el primero, tanto el cifrado como el descifrado tendrían sus propios cuadros donde saldrían sus resultados y solo un cuadro donde el usuario ingresaría su texto con sus respectivos botones para saber la respuesta, en este no habría un botón de instrucciones ya que estas estarían a cada lado. 
 
 **tercer diseño:**
 ![Tercer diseño](src/img/tercerdiseño.png)
-Y por fin decidi como seria el ultimo diseño, dejando algo mas sencillo donde el usuario podria ver los dos botones y un recuadro donde saldria el resultado, ademas de una abarra en la aparte de abajo donde podra escoger cuanto espacios correr en el abecedario, este diseño si tiene integrado el boton de instrucciones para que el usuario pueda ver como usar la web.
+Y por fin decidí como seria el ultimo diseño, dejando algo más sencillo donde el usuario podría ingresar su texto, ver los dos botones y un recuadro donde saldría el resultado, además de una barra en la aparte de abajo donde podrá escoger cuantos espacios correr en el abecedario, al recibir feedback en el primer sprint, decidí hacer un tooltip de las instrucciones para que fuera más fácil de entender para el usuario en vez de un botón.
 
-Escogiendo entre los tres, preferi usar el ultimo diseño, por ser algo facil de hacer con mis habilidades actuales y pensando en la facilidad de ser usado para el usuario.
+**Ultimo diseño**
+![Ultimodiseño](src/img/ultimodiseño.png)
 
 -------------
 
 ## 4. Paso a paso
 
-Una vez definido el diseño que tendria mi pagina empeze con la base de html, pensado en donde iria el titulo, el logo, el input del texto, la barra de rango, los botones para enviar el mensaje, el boton de instrucciones y por ultimo un recuadro donde saldria el mensaje.
+Una vez definido el diseño que tendría mi página empecé con la base de HTML, pensado en donde iría el título, el logo, el textarea del texto, la barra de rango, los botones para enviar el mensaje, el tooltip de las instrucciones y por último un recuadro donde saldría el mensaje.
 
-Una vez terminada la maquetacion del html empeze primero con el JS, pensando como podria realizar el cifrado de una palabra, para ello primero realize una pequeña array con las letras en mayusculas del abecedario y un let con el numero de espacios que deseaba correr. Creando este pequeño codigo que me dio una idea de como empezar todo:
+Una vez terminada la maquetación del HTML empecé primero con el JS, pensando como podría realizar el cifrado de una palabra, para ello primero realice un pequeño ***array*** con las letras en mayúsculas del abecedario y un ***let*** con el número de espacios que deseaba correr. Creando este pequeño código que me dio una idea de cómo empezar todo:
 
 ```javascript
 const cipher = {
@@ -77,21 +78,21 @@ const cipher = {
   }
 ```
 
-Una vez entendido como funcionan los objetos en javascript y las funciones charCodeAt y fromCharCode empeze a experimentar como hacer el cifrador, dando por resultado el codigo que se puede visualizar en el archivo ***cipher.js***, donde pude hacer que la palabra que ingresa el usuario se descompusiera letra por letra y cambiara su valor con la formula encontrada en la documentacion usando los caracteres Ascii para darle un nuevo valor a la letra, por ultimo usando un string donde todas las letras se uniria con la funcion ***.push*** y usando la funcion ***.join*** para juntarlas en un solo texto formando haci el cifrador.
+Una vez entendido como funcionan los objetos en JavaScript y las funciones charCodeAt y fromCharCode empecé a experimentar como hacer el cifrador, dando por resultado el código que se puede visualizar en el archivo ***cipher.js***, donde pude hacer que la palabra que ingresa el usuario se descompusiera letra por letra y cambiara su valor con la formula encontrada en la documentación usando los caracteres ASCII para darle un nuevo valor a la letra, por ultimo usando un string donde todas las letras se uniría con la función ***.push*** y usando la función ***.join*** para juntarlas en un solo texto formando así el cifrador.
 
-Ya para la pruebas busque una manera de que el codigo mandara un error con ***if*** y el comando ***throw new***, para lanzar un error de type el cual consiste de que si el usuario no escribe un string tipo texto o un offset tipo numero lanzanria el error.
+Ya para las pruebas busque una manera de que el código mandara un error con ***if*** y el comando ***throw new***, este lanzaría un error de type el cual consiste de que si el usuario no escribe un string tipo texto o un offset tipo número lanzaría el error.
 
-Para hacer el la funcion de ***decode*** solo copie la formula del cifrador, cambiando unicamente la formula pasando de ser asi:
+Para hacer en la función de ***decode*** solo copie la formula del cifrador, cambiando únicamente el + por el - pasando de ser así:
 
 ```javascript
  let formula = ((numberAscii - 65 + offset)% 26) + 65;
 ```
 
-A asi:
+A así:
 ```javascript
  let formula = ((numberAscii - 65 - offset)% 26) + 65;
 ```
-Pero hacer esto me genero un pequeño problema, y fue que la  formula no volvia a repetir el string desde el valor cero, a que me refiero con esto? Usando de ejemplo el nombre de mi gata que es Poyo, quiero cifrar su nombre corriendo 4 pasos en el abecedario, el resultado de este cifrado seria TSCS, pero si tratabas de decifrarlo corriendo los mismo espacios el resultado seria PO?O, dando un signo de interrogacion en vez de la letra "Y", ¿Que paso? Que mi codigo estaba recibiendo numeros negativos y por estar usando los valores ascii normalmente en vez de devolver la "Y" devolvia "?",  el valor ASCII de "C" que es la letra que reemplaza a la "Y" en el codigo cifrado tiene un valor ASCII de 67, al restar los cuatro espacios deveria dar una vuelta al codigo y dar el numero de 89 que es la "Y", pero en vez de eso cogia el numero 63. Para solucionar esto use una variable ***If*** haciendo que si el valor de la formula era menor a 65 (siendo 65 la "A") sumara nuevamente las 25 letras del abecedario y siquiera con la resta, quedando asi:
+Pero hacer esto me genero un pequeño problema, y fue que la formula no volvía a repetir el string desde el valor cero, ¿A qué me refiero con esto? Usando de ejemplo el nombre de mi gata que es **Poyo**, si yo quiero cifrar su nombre corriendo 4 pasos en el abecedario, el resultado de este cifrado seria **TSCS**, pero si tratabas de descifrarlo corriendo los mismo espacios el resultado sería **PO?O**, dando un signo de interrogación en vez de la letra **"Y"**, ¿Que paso? Que mi código estaba recibiendo números negativos y por estar usando los valores ASCII normalmente en vez de devolver la **"Y"** devolvía **“?”**, el valor ASCII de **"C"** que es la letra que reemplaza a la **"Y"** en el código cifrado tiene un valor ASCII de 67, al restar los cuatro espacios debería dar una vuelta al código y dar el numero de 89 que es la **"Y"**, pero en vez de eso cogía el número 63. Para solucionar esto use una variable ***If*** haciendo que si el valor de la formula era menor a 65 (siendo 65 la "A") sumara nuevamente las 25 letras del abecedario y siguiera con la resta, quedando así:
 
 ```javascript
  let formula = ((numberAscii - 65 - offset)% 26) + 65;
@@ -99,32 +100,48 @@ if (formula < 65) {
     formula = formula + 26;
     }
 ```
-Devolviendo asi el texto deseado sin problemas.
+Devolviendo así el texto deseado sin problemas.
 
 -------------
 
 ## 5. Instrucciones de uso
 -------------
 
+Para poder hacer uso de la página web es necesario descargar el archivo del proyecto desde GitHub con el siguiente [link.](https://github.com/Dan13l4/BOG004-cipher "link") y luego ingresar al vinculo llamado ***index.html*** dentro de la carpeta ***src***.
+
+Para usar el cifrador:
+1. En mayúsculas por favor ingresa el texto que quiera cifrar, trata de no usar caracteres especiales como la coma, tilde o la letra ñ
+2. Escoge el número de pasos que quieres que se corra la letra en el abecedario.
+3. Pulsa el botón -cifrar- para ver el resultado.
+
+Para usar el descifrador:
+1. En mayúsculas por favor ingresa el texto que quiera Descifrar, trata de no usar caracteres especiales como la coma, tilde o la letra ñ
+2. Escoge el número de pasos que se usaron para cifrar la palabra
+3. Pulsa el botón -descifrar- para ver el resultado.
+
+
+
 -------------
 
 ## 6. Conclusiones
 -------------
+
+Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en este proyecto, además de mis compañeras, me dieron muy buenas ideas para el diseño de este proyecto y me destrancaron un poquito con las dudas que tenia sobre mi código. La verdad me divertí mucho en la realización de este proyecto y aprendí bastante sobre como usar los objetos en JS (de lo cual no tenía idea 😭), además de otros pequeños truquillos que fui aprendiendo a lo largo de la creación del proyecto, fue una experiencia bastante agradable y espero poder seguir avanzando asi!
 
 -------------
 
 ## 7. Cheklist
 -------------
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [x] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [X] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
 * [X] Usa VanillaJS.
 * [X] Implementa `cipher.encode`.
 * [X] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
+* [x] Pasa linter con configuración provista.
 * [X] Pasa pruebas unitarias.
 * [X] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
@@ -138,16 +155,17 @@ Devolviendo asi el texto deseado sin problemas.
 
 ## 8. Objetivos de aprendizaje
 
+---------------
 ### HTML
 
 - [X] **Uso de HTML semántico**
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [X] **Uso de selectores de CSS**
 
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+- [X] **Modelo de caja (box model): borde, margen, padding**
 
 
 ### Web APIs
@@ -185,28 +203,28 @@ Devolviendo asi el texto deseado sin problemas.
 - [X] **Pruebas unitarias (unit tests)**
 
 
-- [ ] **Módulos de ECMAScript (ES Modules)**
+- [X] **Módulos de ECMAScript (ES Modules)**
 
 
-- [ ] **Uso de linter (ESLINT)**
+- [X] **Uso de linter (ESLINT)**
 
 - [X] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
+- [X] **Git: Instalación y configuración**
 
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [X] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+- [X] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
-- [ ] **GitHub: Despliegue con GitHub Pages**
+- [X] **GitHub: Despliegue con GitHub Pages**
 
 
 ### UX (User eXperience)
 
-- [ ] **Diseñar la aplicación pensando en y entendiendo al usuario**
+- [X] **Diseñar la aplicación pensando en y entendiendo al usuario**
 
-- [ ] **Crear prototipos para obtener feedback e iterar**
+- [X] **Crear prototipos para obtener feedback e iterar**
 
-- [ ] **Aplicar los principios de diseño visual**
+- [X] **Aplicar los principios de diseño visual**
