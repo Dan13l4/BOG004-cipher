@@ -15,6 +15,9 @@ body{
     align-items: center;
     justify-content: center;
     width: 150vh;
+    box-shadow: 8px 8px 35px 0px #7e9097;
+    border-radius: 10px 100px / 120px;
+    background-color: #29434e;
   }
 
   #inicio{
@@ -26,9 +29,8 @@ body{
 
   #logo{
     padding: 0;
-    margin-bottom: 5px;
+    margin-top: 5px;
     display: flex;
-    width: 150px;
     justify-content: center;
     align-items: center;
 
@@ -85,7 +87,7 @@ body{
 
   .button{
     align-items: center;
-    background-color: #29434E;
+    background-color: #000a12;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
@@ -115,12 +117,12 @@ body{
 
   .button:hover,
   .button:focus { 
-    background-color: #1E3138;
+    background-color: #012f55;
     color: #ffffff;
   }
 
   .button:active {
-    background: #1E3138;
+    background: #000a12;
     color: rgb(255, 255, 255, .7);
   }
 
@@ -152,6 +154,10 @@ body{
     font-size: 30px;
     resize: none;
     margin-bottom: 50px;
+    background-color: #819CA9;
+    border-color:#263238;
+    border-width: 2px;
+    color: white;
   }
 
   textarea {
