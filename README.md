@@ -55,7 +55,7 @@ En este segundo diseño decidí incluir el titulo del proyecto por encima del lo
 Y por fin decidí como seria el ultimo diseño, dejando algo más sencillo donde el usuario podría ingresar su texto, ver los dos botones y un recuadro donde saldría el resultado, además de una barra en la aparte de abajo donde podrá escoger cuantos espacios correr en el abecedario, al recibir feedback en el primer sprint, decidí hacer un tooltip de las instrucciones para que fuera más fácil de entender para el usuario en vez de un botón.
 
 **Ultimo diseño**
-![Ultimo diseño](src/img/ultimodiseño.png)
+![Ultimo diseño](src/img/diseño.png)
 
 -------------
 
