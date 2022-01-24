@@ -9,14 +9,24 @@
     <div id="root">
       
       <header id="inicio">
-        <h1 id="titulo">Cifrado Cesar</h1>
         <img src="img/logo.png" id="logo">
+        <p id="titulo">Let's make a secret</p>
       </header>
 
       <div id="cuadro">
+
         <form id="cifrador" autocomplete="off">
-          <input id="input-original" spellcheck="false" placeholder="Ingresa tu texto." type="text" name="text">
+          <!-- <input id="input-original" spellcheck="false" placeholder="Ingresa tu texto." type="text" name="text">-->
+          <textarea name="text" id="input-original" cols="30" rows="10" placeholder="Ingresa tu texto aqui."></textarea>
         </form>
+
+        <!--<input type="image" id="instrucciones" src="img/botonpregunta.png" >-->
+
+        <div class="tooltip">
+          <img id="instrucciones" src="img/botonpregunta.png" ></img>
+          <span class="tooltiptext">Bienvend@, porfavor lee con atencion las siguientes instrucciones.  <p>CIFRADOR:</p>   1. En mayusculas porfavor ingresa el texto que quiera cifrar, trata de no usar caracteres especiales como la coma, tilde o la letra ñ <p> 2. Escoge el numero de pasos que quieres que se corra la letra en el abecedario. </p> 3. Pulsa el boton -cifrar- para ver el resultado. </p> DECIFRADOR: </p> 1.En mayusculas porfavor ingresa el texto que quiera Decifrar</p> 2. Escoge el numero de pasos que se usaron para cifrar la palabra </p> 3. Pulsa el boton -descifrar- para ver el resultado.</span>
+        </div>
+
       </div>
 
       <div id="barra">
@@ -25,13 +35,13 @@
       </div>
 
       <div id="botones">
-        <button id="button">Cifrar</button>
-        <input type="image" id="instrucciones" src="img/botonpregunta.png">
-        <button id="buton">Descifrar</button>
+        <button id="button" class="button">Cifrar</button>
+        <button id="buton" class="button">Descifrar</button>
       </div>
 
       <div id="resultado">
-        <p id="texto"></p>
+        <!--<p id="texto"></p>-->
+        <textarea name="texto" id="texto" cols="30" rows="10" readonly="false" placeholder="Aqui saldra tu texto"></textarea>
       </div>
 
     </div>
