@@ -8,17 +8,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #546E7A;
 }
 
 #root {
     align-items: center;
     justify-content: center;
-    /*padding: 60px 500px;*/
     width: 150vh;
-    box-shadow: 8px 8px 35px 0px rgba(248, 248, 248, 0.75);
+    box-shadow: 8px 8px 35px 0px #7e9097;
     border-radius: 10px 100px / 120px;
-    background-color: #ffffff;
+    background-color: #29434e;
   }
 
   #inicio{
@@ -30,9 +29,8 @@ body{
 
   #logo{
     padding: 0;
-    margin-bottom: 5px;
+    margin-top: 5px;
     display: flex;
-    width: 150px;
     justify-content: center;
     align-items: center;
 
@@ -42,11 +40,9 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-decoration-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 0;
-    font-size: 50px;
-    text-decoration: underline;
+    font-size: 30px;
   }
 
   #inicio{
@@ -61,16 +57,17 @@ body{
     width: 600px;
     align-items: center;
     justify-content: center;
-    text-align: center;
     flex-direction: row;
     font-size: 30px;
+    resize: none;
+    text-transform: uppercase;
+    margin: 0;
+    background-color: #819CA9;
+    border-color:#263238;
+    border-width: 2px;
+    color: white;
   }
 
-  form#cifrador{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   #barra{
     display: flex;
@@ -87,74 +84,115 @@ body{
       align-items: center;
   }
 
-  #button {
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 50px 10px;
-    background-color: #edebff;
-    border-radius: 10px;
-    color: black;
-    padding: 10px 30px;
-  }
-
-  #button:hover{
-    background-color: #a299f1;
-    color: rgb(39, 39, 39);
-  }
-
-  #buton {
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 4px 10px;
-    background-color: #edebff;
-    border-radius: 10px;
-    color: black;
-    padding: 10px 32px;
-  }
-
-  #buton:hover{
-    background-color: #a299f1;
-    color: rgb(39, 39, 39);
-  }
 
   .button{
-    background-color: #14173b;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    align-items: center;
+    background-color: #000a12;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    margin: 4px 2px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+
+  .button:hover,
+  .button:focus { 
+    background-color: #012f55;
+    color: #ffffff;
+  }
+
+  .button:active {
+    background: #000a12;
+    color: rgb(255, 255, 255, .7);
   }
 
   #instrucciones{
-      height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
   }
+  
 
   .resultado{
-    border-radius: 10px;
-    border-style: dotted;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   #texto{
-      display: flex;
-      width: 50vh;
-      height: 50px;
-      margin-left: 50vh;
-      justify-content: center;
-      align-items: center;
-      font-size: 25px;
-      text-decoration-color: aliceblue;
-      color: rgb(0, 0, 0);
-      border-width: thin;
-      border-style: solid;
-      border-color: rgb(2, 2, 2);
-      margin-bottom: 90px;
-      border-radius: 10px;
+    height:  200px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    font-size: 30px;
+    resize: none;
+    margin-bottom: 50px;
+    background-color: #819CA9;
+    border-color:#263238;
+    border-width: 2px;
+    color: white;
   }
+
+  textarea {
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#cuadro{
+  display: flex;
+  justify-content: center;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
