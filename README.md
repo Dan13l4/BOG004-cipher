@@ -126,7 +126,7 @@ Para usar el descifrador:
 ## 6. Conclusiones
 -------------
 
-Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en este proyecto, además de mis compañeras, me dieron muy buenas ideas para el diseño de este proyecto y me destrancaron un poquito con las dudas que tenia sobre mi código. La verdad me divertí mucho en la realización de este proyecto y aprendí bastante sobre como usar los objetos en JS (de lo cual no tenía idea 😭), además de otros pequeños truquillos que fui aprendiendo a lo largo de la creación del proyecto, fue una experiencia bastante agradable y espero poder seguir avanzando asi!
+Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en este proyecto, además de mis compañeras, me dieron muy buenas ideas para el diseño de este proyecto y me destrancaron un poquito con las dudas que tenia sobre mi código. La verdad me divertí mucho en la realización de este proyecto y aprendí bastante sobre como usar los objetos en JS (de lo cual no tenía idea 😭), además de otros pequeños truquillos que fui aprendiendo a lo largo de la creación del proyecto, fue una experiencia bastante agradable y espero poder seguir avanzando asi..!
 
 -------------
 
