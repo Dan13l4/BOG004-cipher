@@ -16,7 +16,6 @@
 ----
 
 ## 1. Introducción
--------------
 
 El Cifrado César fue inventado por el emperador Julio César. Consiste en mover cada letra un determinado número de espacios en el alfabeto. En el siguiente ejemplo se usa un desplazamiento de tres espacios, así que una B en el texto original se convierte en una E en el texto codificado.
 
@@ -29,7 +28,6 @@ El Cifrado César fue inventado por el emperador Julio César. Consiste en mover
 
 
 ## 2. Características del proyecto
--------------
 
 La idea del proyecto era crear una web que permitiera crear mensajes cifrados para una empresa de maquillaje que desea evitar que sus nuevas recetas sean robadas por sus competidores, siendo así, la empresa pidió una página web que fuera sencilla e intuitiva, usando una paleta de colores azules, con un botón de instrucciones, dos botones para cifrar y descifrar, una barra para escoger los espacios que se corre en el abecedario y que muestre el logo de la empresa para identificar que pertenece a esta. La web esta pensada para la protección de datos privados para las empresas, siendo esta web fácil de usar para los trabajadores, siendo mayoritariamente para un público adulto.
 
@@ -40,7 +38,6 @@ Este es el esquema que cree para poder realizar el proyecto con las cosas básic
 -------------
 
 ## 3. Diseño del programa
--------------
 
 Luego de determinar la función que tendría la web me puse a trabajar en el diseño de esta, como iba a estar organizada, como iban a ser los botones y en qué espacio saldría la respuesta, más que todo fueron decisiones creativas.
 
@@ -105,7 +102,6 @@ Devolviendo así el texto deseado sin problemas.
 -------------
 
 ## 5. Instrucciones de uso
--------------
 
 Para poder hacer uso de la página web es necesario descargar el archivo del proyecto desde GitHub con el siguiente [link.](https://github.com/Dan13l4/BOG004-cipher "link") y luego ingresar al vinculo llamado ***index.html*** dentro de la carpeta ***src***.
 
@@ -124,14 +120,12 @@ Para usar el descifrador:
 -------------
 
 ## 6. Conclusiones
--------------
 
 Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en este proyecto, además de mis compañeras, me dieron muy buenas ideas para el diseño de este proyecto y me destrancaron un poquito con las dudas que tenia sobre mi código. La verdad me divertí mucho en la realización de este proyecto y aprendí bastante sobre como usar los objetos en JS (de lo cual no tenía idea 😭), además de otros pequeños truquillos que fui aprendiendo a lo largo de la creación del proyecto, fue una experiencia bastante agradable y espero poder seguir avanzando asi..!
 
 -------------
 
 ## 7. Cheklist
--------------
 
 * [X] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [x] `README.md` explica claramente quiénes son los usuarios y su relación con
@@ -155,7 +149,6 @@ Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en es
 
 ## 8. Objetivos de aprendizaje
 
----------------
 ### HTML
 
 - [X] **Uso de HTML semántico**
