@@ -7,14 +7,14 @@ const cipher = {
     if (typeof(string) !== 'string' || typeof(offset) !== 'number' ) {
       throw new TypeError();
     }
-    let arrayFrase = [];
+    let arrayPhrase = [];
     let newWord;
     for(let i = 0; i < string.length; i++){
       let numberAscii = string.charCodeAt(i);
-      let formula = ((numberAscii - 65 + offset)% 26) + 65;
-      newWord = String.fromCharCode(formula);
-      arrayFrase.push(newWord);
-      newWord = arrayFrase.join("");
+      let equation = ((numberAscii - 65 + offset)% 26) + 65;
+      newWord = String.fromCharCode(equation);
+      arrayPhrase.push(newWord);
+      newWord = arrayPhrase.join("");
     }
     return newWord;
   },
@@ -26,17 +26,17 @@ const cipher = {
     if (typeof(string) !== 'string' || typeof(offset) !== 'number' ) {
       throw new TypeError();
     }
-    let arrayFrase = [];
+    let arrayPhrase = [];
     let newWord;
     for(let i = 0; i < string.length; i++){
       let numberAscii = string.charCodeAt(i);
-      let formula = ((numberAscii - 65 - offset)% 26) + 65;
-      if (formula < 65) {
-        formula = formula + 26;
+      let equation = ((numberAscii - 65 - offset)% 26) + 65;
+      if (equation < 65) {
+        equation = equation + 26;
       }
-      newWord = String.fromCharCode(formula);
-      arrayFrase.push(newWord);
-      newWord = arrayFrase.join("");
+      newWord = String.fromCharCode(equation);
+      arrayPhrase.push(newWord);
+      newWord = arrayPhrase.join("");
     }
     return newWord;
   }
