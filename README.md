@@ -196,10 +196,10 @@ Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en es
 - [X] **Pruebas unitarias (unit tests)**
 
 
-- [X] **Módulos de ECMAScript (ES Modules)**
+- [ ] **Módulos de ECMAScript (ES Modules)**
 
 
-- [X] **Uso de linter (ESLINT)**
+- [ ] **Uso de linter (ESLINT)**
 
 - [X] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
