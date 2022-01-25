@@ -29,6 +29,10 @@ describe('cipher', () => {
       expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
+    it('type error', ()  => {
+      expect(() => cipher.encode("mhngb" , "mjhjh")).toThrow(TypeError);
+    }); 
+
     // Hacker edition
     //
     // [Español]
@@ -74,6 +78,10 @@ describe('cipher', () => {
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
       expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
+
+    it('type error', ()  => {
+      expect(() => cipher.decode("mhngb" , "mjhjh")).toThrow(TypeError);
+    }); 
 
     //
     // Hacker edition
