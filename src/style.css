@@ -53,7 +53,6 @@ body{
     flex-direction: row;
     font-size: 30px;
     resize: none;
-    text-transform: uppercase;
     margin: 0;
     background-color: #819CA9;
     border-color:#263238;
@@ -149,7 +148,6 @@ body{
     margin: auto;
     display: block;
     text-align: center;
-    text-transform: uppercase;
 }
 
 
