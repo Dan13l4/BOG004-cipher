@@ -92,10 +92,11 @@ A así:
 Pero hacer esto me genero un pequeño problema, y fue que la formula no volvía a repetir el string desde el valor cero, ¿A qué me refiero con esto? Usando de ejemplo el nombre de mi gata que es **Poyo**, si yo quiero cifrar su nombre corriendo 4 pasos en el abecedario, el resultado de este cifrado seria **TSCS**, pero si tratabas de descifrarlo corriendo los mismo espacios el resultado sería **PO?O**, dando un signo de interrogación en vez de la letra **"Y"**, ¿Que paso? Que mi código estaba recibiendo números negativos y por estar usando los valores ASCII normalmente en vez de devolver la **"Y"** devolvía **“?”**, el valor ASCII de **"C"** que es la letra que reemplaza a la **"Y"** en el código cifrado tiene un valor ASCII de 67, al restar los cuatro espacios debería dar una vuelta al código y dar el numero de 89 que es la **"Y"**, pero en vez de eso cogía el número 63. Para solucionar esto use una variable ***If*** haciendo que si el valor de la formula era menor a 65 (siendo 65 la "A") sumara nuevamente las 25 letras del abecedario y siguiera con la resta, quedando así:
 
 ```javascript
- let formula = ((numberAscii - 65 - offset)% 26) + 65;
-if (formula < 65) {
-    formula = formula + 26;
-    }
+ if(numberAscii >= 65 && numberAscii <= 90){
+          equation = ((numberAscii - 65 - offset)% 26) + 65;
+      if(equation < 65 && equation !== 32){
+        equation = equation + 26;}
+      }
 ```
 Devolviendo así el texto deseado sin problemas.
 
@@ -106,12 +107,12 @@ Devolviendo así el texto deseado sin problemas.
 Para poder hacer uso de la página web es necesario descargar el archivo del proyecto desde GitHub con el siguiente [link.](https://github.com/Dan13l4/BOG004-cipher "link") y luego ingresar al vinculo llamado ***index.html*** dentro de la carpeta ***src***.
 
 Para usar el cifrador:
-1. En mayúsculas por favor ingresa el texto que quiera cifrar, trata de no usar caracteres especiales como la coma, tilde o la letra ñ
+1. Por favor en el primer cuadro ingresa el texto que deseas cifrar
 2. Escoge el número de pasos que quieres que se corra la letra en el abecedario.
 3. Pulsa el botón -cifrar- para ver el resultado.
 
 Para usar el descifrador:
-1. En mayúsculas por favor ingresa el texto que quiera Descifrar, trata de no usar caracteres especiales como la coma, tilde o la letra ñ
+1. Por favor ingresa el texto que quiera Descifrar
 2. Escoge el número de pasos que se usaron para cifrar la palabra
 3. Pulsa el botón -descifrar- para ver el resultado.
 
@@ -196,10 +197,10 @@ Primera que nada, muchas gracias a laboratoria y a sus Coachs por su ayuda en es
 - [X] **Pruebas unitarias (unit tests)**
 
 
-- [ ] **Módulos de ECMAScript (ES Modules)**
+- [X] **Módulos de ECMAScript (ES Modules)**
 
 
-- [ ] **Uso de linter (ESLINT)**
+- [X] **Uso de linter (ESLINT)**
 
 - [X] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
