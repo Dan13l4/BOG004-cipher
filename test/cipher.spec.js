@@ -30,7 +30,7 @@ describe('cipher', () => {
     });
 
     it('type error', ()  => {
-      expect(() => cipher.encode("mhngb" , "mjhjh")).toThrow(TypeError);
+      expect(() => cipher.encode("texto" , "texto")).toThrow(TypeError);
     }); 
 
     // Hacker edition
